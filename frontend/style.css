@@ -1,0 +1,169 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:#1f1f1f;
+color:#f5f5f5;
+}
+
+header{
+background:linear-gradient(135deg,#2c2c2c,#4b3f35);
+color:white;
+text-align:center;
+padding:35px;
+}
+
+header h1{
+margin-bottom:10px;
+}
+
+nav{
+background:#2b2b2b;
+padding:15px;
+text-align:center;
+border-bottom:1px solid #4b3f35;
+}
+
+nav a{
+color:#f5f5f5;
+text-decoration:none;
+margin:0 15px;
+font-weight:600;
+}
+
+nav a:hover
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+padding:25px;
+}
+
+.hero{
+background:linear-gradient(135deg,#2c2c2c,#4b3f35);
+color:white;
+text-align:center;
+padding:80px 25px;
+border-radius:16px;
+margin-top:20px;
+}
+
+.hero h1{
+font-size:45px;
+margin-bottom:15px;
+}
+
+.hero p{
+color:#d6d6d6;
+font-size:18px;
+}
+
+.card{
+background:#2a2a2a;
+color:#f5f5f5;
+padding:25px;
+margin-top:20px;
+border-radius:16px;
+border:1px solid #3a3a3a;
+box-shadow:0 8px 20px rgba(0,0,0,0.3);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+border-color:#c7a17a;
+}
+
+.card h2{
+color:#d2b48c;
+margin-bottom:12px;
+}
+
+.card p{
+line-height:1.7;
+color:#d0d0d0;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:20px;
+}
+
+.stat-card{
+background:#2a2a2a;
+padding:30px;
+border-radius:16px;
+text-align:center;
+border:1px solid #3a3a3a;
+box-shadow:0 8px 20px rgba(0,0,0,0.3);
+}
+
+.stat-card h2{
+color:#d2b48c;
+font-size:42px;
+}
+
+input,
+textarea,
+select{
+width:100%;
+padding:12px;
+margin-top:10px;
+margin-bottom:10px;
+background:#333333;
+color:white;
+border:1px solid #555;
+border-radius:10px;
+}
+
+input::placeholder,
+textarea::placeholder{
+color:#bdbdbd;
+}
+
+button{
+background:#8b6b4f;
+color:white;
+border:none;
+padding:12px 20px;
+border-radius:10px;
+cursor:pointer;
+font-size:15px;
+font-weight:600;
+}
+
+button:hover
+
+ul{
+margin-left:20px;
+margin-top:10px;
+}
+
+li{
+margin-bottom:10px;
+color:#d6d6d6;
+}
+
+footer{
+margin-top:40px;
+background:#2b2b2b;
+color:#d6d6d6;
+text-align:center;
+padding:20px;
+border-top:1px solid #4b3f35;
+}
+
+nav a{
+    transition:0.3s;
+}
+
+button{
+    transition:0.3s;
+}

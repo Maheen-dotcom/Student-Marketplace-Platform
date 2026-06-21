@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Marketplace</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Marketplace</h1>
+    <p>Browse Available Academic Resources</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="login.html">Login</a>
+    <a href="marketplace.html">Marketplace</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="manage.html">Manage Products</a>
+</nav>
+
+<div class="container">
+
+```
+<div class="hero">
+    <h1>Student Marketplace</h1>
+    <p>
+        Discover books, notes, calculators, laptops and other educational
+        resources shared by students.
+    </p>
+</div>
+
+<div class="card">
+
+    <h2>Search Products</h2>
+
+    <p>
+        Search functionality is supported through FastAPI APIs.
+        You can use keywords to find products quickly.
+    </p>
+
+    <input type="text" placeholder="Enter Product Name">
+
+    <button>Search Product</button>
+
+</div>
+
+<div class="card">
+
+    <h2>Available Products</h2>
+
+    <p>
+        Products listed below are loaded directly from the PostgreSQL
+        database through FastAPI.
+    </p>
+
+    <div id="productList"></div>
+
+</div>
+
+<div class="card">
+
+    <h2>Marketplace Features</h2>
+
+    <ul>
+        <li>Browse Available Products</li>
+        <li>View Product Details</li>
+        <li>Search Products</li>
+        <li>Filter Products by Category</li>
+        <li>Manage Product Listings</li>
+    </ul>
+
+</div>
+```
+
+</div>
+
+<footer>
+    Student Marketplace Platform | Product Listings
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
