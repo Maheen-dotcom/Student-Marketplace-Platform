@@ -8,6 +8,26 @@ The project was developed as part of the Operating Systems and Software Developm
 
 ---
 
+## Live Project Links
+
+### Frontend Website
+
+https://student-marketplace-platform.vercel.app/
+
+### Backend API
+
+https://student-marketplace-platform-production.up.railway.app
+
+### API Documentation (Swagger)
+
+https://student-marketplace-platform-production.up.railway.app/docs
+
+### GitHub Repository
+
+https://github.com/Maheen-dotcom/Student-Marketplace-Platform
+
+---
+
 ## Problem Statement
 
 Students often struggle to find affordable academic resources. Existing online marketplaces are designed for general users and do not specifically address student needs.
@@ -52,7 +72,7 @@ This project provides a dedicated platform that allows students to connect with 
 
 ### Deployment
 
-* Render (Backend)
+* Railway (Backend)
 * Vercel (Frontend)
 
 ---
